@@ -1,6 +1,6 @@
 # cpgame
 
-babe and egg&#x27;s lovely game
+egg and babe&#x27;s home
 
 ## Getting Started
 
