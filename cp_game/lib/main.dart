@@ -1,3 +1,4 @@
+import 'package:cpgame/subgame/kit_fly/game.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/gestures.dart';
@@ -10,7 +11,7 @@ void main() async {
   await flameUtil.fullScreen();
   await flameUtil.setOrientation(DeviceOrientation.portraitUp);
 
-  CPGame game = CPGame();
+  KitFlyGame game = KitFlyGame();
   TapGestureRecognizer tapper = TapGestureRecognizer();
 
   tapper.onTapDown = game.onTapDown;
